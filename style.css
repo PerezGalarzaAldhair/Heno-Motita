@@ -15,11 +15,16 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
-p, ul, img {
+p, ul, img, video {
     margin-bottom: 24px;
 }
 img {
     max-width: 100%;
+    object-fit: cover;
+}
+video {
+    max-width: 100%;
+    object-fit: cover;
 }
 ul {
     padding-left: 14px;
